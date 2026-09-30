@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#09070d">
+  <title>Para mi Puchupuchu 🖤</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;700;900&family=Special+Elite&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="grain"></div>
+  <div class="embers" aria-hidden="true"></div>
+
+  <section id="lockScreen" class="screen lock-screen">
+    <div class="sigil">✦</div>
+    <p class="eyebrow">ARCHIVO PRIVADO · SOLO PARA UNA PERSONA</p>
+    <h1>MI <span>PUCHUPUCHU</span></h1>
+    <p class="muted">Hay un pequeño universo que hice para ti.<br>Pero primero… necesito saber que eres tú.</p>
+    <form id="passwordForm" class="password-form">
+      <label for="password">INTRODUCE LA CLAVE</label>
+      <input id="password" type="password" placeholder="dd/mm/aaaa" autocomplete="off" required>
+      <button class="button" type="submit">DESBLOQUEAR <span>⛓</span></button>
+      <p id="passwordError" class="error" aria-live="polite"></p>
+    </form>
+    <div class="lock-bottom">HECHO CON AMOR, UN POQUITO DE LOCURA Y MUCHO ROCK ♡</div>
+  </section>
+
+  <main id="mainContent" class="hidden">
+    <header class="topbar">
+      <a class="brand" href="#home">TP <span>×</span> MP</a>
+      <nav>
+        <a href="#historia">Nuestra historia</a>
+        <a href="#garage">El garaje</a>
+        <a href="#carta">La carta</a>
+      </nav>
+      <button id="musicButton" class="music-button" type="button" aria-label="Abrir Coraline de Måneskin">♫ <span>Coraline</span></button>
+    </header>
+
+    <section id="home" class="hero section">
+      <div class="hero-copy">
+        <p class="eyebrow">30 · 06 · 2026 — UN REGALO PARA TI</p>
+        <h1>FELIZ DÍA<br>DE LOS <span>HOT WHEELS</span></h1>
+        <p class="hero-sub">Para mi Puchupuchu, de tu Pastelito.</p>
+        <p class="hero-text">Si el mundo fuera una carretera infinita, yo seguiría eligiendo viajar contigo. Con música, manos entrelazadas y mil historias por vivir.</p>
+        <a class="button" href="#historia">ARRANCA, MI AMOR <span>↘</span></a>
+      </div>
+      <div class="race-art" aria-label="Ilustración decorativa de un auto deportivo">
+        <div class="moon"></div>
+        <div class="track track-one"></div><div class="track track-two"></div>
+        <div class="speed-line s1"></div><div class="speed-line s2"></div><div class="speed-line s3"></div>
+        <div class="car">
+          <div class="car-roof"></div><div class="car-window"></div><div class="car-body"></div>
+          <div class="wheel wheel-a"></div><div class="wheel wheel-b"></div>
+          <div class="headlight"></div><div class="taillight"></div>
+        </div>
+        <div class="car-caption">LOVE IN THE FAST LANE <span>♥</span></div>
+      </div>
+      <div class="hero-stamp">EDICIÓN<br><b>ÚNICA</b><br>♡ 001</div>
+      <a class="scroll-cue" href="#historia">DESLIZA PARA DESCUBRIR <span>↓</span></a>
+    </section>
+
+    <section id="historia" class="section memories">
+      <div class="section-heading">
+        <p class="eyebrow">CAPÍTULO I · NUESTROS RECUERDOS</p>
+        <h2>Pequeños momentos.<br><span>Mi mundo entero.</span></h2>
+        <p>Hay recuerdos que parecen sencillos hasta que entiendes que, en realidad, se quedaron a vivir en el corazón.</p>
+      </div>
+      <div class="memory-grid">
+        <article class="memory-card">
+          <div class="memory-number">01 / EL COMIENZO</div>
+          <img src="imagenes/nosotros-1.jpg" alt="Una foto de nosotros juntos">
+          <h3>La primera vez que nos vimos</h3>
+          <p>Ese día mi mundo tuvo un antes y un después. No sabía que una persona podía sentirse tan especial y tan hogar al mismo tiempo.</p>
+        </article>
+        <article class="memory-card">
+          <div class="memory-number">02 / UN DETALLE</div>
+          <img src="imagenes/nosotros-2.jpg" alt="Un recuerdo de nosotros">
+          <h3>Cuando te di tus Hot Wheels</h3>
+          <p>Verte recibirlos fue un regalo para mí también. Porque hacerte feliz, incluso con algo pequeñito, se volvió una de mis cosas favoritas.</p>
+        </article>
+        <article class="memory-card">
+          <div class="memory-number">03 / CINE Y TÚ</div>
+          <img src="imagenes/nosotros-3.jpg" alt="Una foto especial de nosotros">
+          <h3>Nuestra primera ida al cine</h3>
+          <p>La película pudo terminar, pero yo me quedé con ganas de que el momento contigo durara un poquito más.</p>
+        </article>
+        <article class="memory-card">
+          <div class="memory-number">04 / NUESTRA CANCIÓN</div>
+          <img src="imagenes/nosotros-4.jpg" alt="Nosotros compartiendo un momento">
+          <h3>Manejando y cantando</h3>
+          <p>La carretera, nuestras voces y esas canciones que se sienten distintas cuando las comparto contigo. Yo repetiría ese viaje mil veces.</p>
+        </article>
+        <article class="memory-card memory-wide">
+          <div class="memory-number">05 / MI LUGAR FAVORITO</div>
+          <img src="imagenes/nosotros-5.jpg" alt="Un momento tierno de nosotros">
+          <h3>Caminar agarrados de la mano</h3>
+          <p>No necesitaba un plan extraordinario. Si tu mano estaba junto a la mía, hasta el camino más común se convertía en uno de mis lugares favoritos.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="quote-band">
+      <span class="quote-mark">“</span>
+      <p>Mi lugar favorito no aparece en ningún mapa.<br><strong>Es al lado tuyo.</strong></p>
+      <span class="quote-heart">♥</span>
+    </section>
+
+    <section id="garage" class="section garage">
+      <div class="section-heading">
+        <p class="eyebrow">CAPÍTULO II · EL GARAJE DE MI PUPUCHU</p>
+        <h2>Máquinas bonitas.<br><span>Un dueño más bonito.</span></h2>
+        <p>Toca cada máquina para descubrir lo que me recuerda de ti.</p>
+      </div>
+      <div class="garage-grid">
+        <button class="car-card" data-message="Tienes esa forma de llegar a mi vida y hacer que todo se sienta más emocionante.">
+          <span class="car-icon car-red">▰</span><span class="car-type">01 · MUSCLE</span><b>THE HEARTBREAKER</b><small>Rápido, ruidoso y precioso.</small><span class="tap">TOCA PARA ABRIR ↗</span>
+        </button>
+        <button class="car-card" data-message="Contigo hasta el camino más largo se siente como una aventura que no quiero terminar.">
+          <span class="car-icon car-purple">▰</span><span class="car-type">02 · NIGHT RUNNER</span><b>MIDNIGHT KISS</b><small>Hecho para perderse juntos.</small><span class="tap">TOCA PARA ABRIR ↗</span>
+        </button>
+        <button class="car-card" data-message="Mi corazón hace más ruido que cualquier motor cuando te acercas a mí.">
+          <span class="car-icon car-silver">▰</span><span class="car-type">03 · CLASSIC</span><b>LOUD LOVE</b><small>Un clásico que no cambiaría.</small><span class="tap">TOCA PARA ABRIR ↗</span>
+        </button>
+      </div>
+      <div id="carMessage" class="car-message" aria-live="polite">Elige un carrito, mi amorcito. ♡</div>
+    </section>
+
+    <section class="music-section section">
+      <div class="music-vinyl"><span>♫</span></div>
+      <div>
+        <p class="eyebrow">CAPÍTULO III · SUBE EL VOLUMEN</p>
+        <h2>Un poquito de oscuridad.<br><span>Muchísimo amor.</span></h2>
+        <p>Para nuestro lado gótico, para cantar, para sentirlo todo. Esta canción también tiene un lugarcito en este regalo.</p>
+        <button id="musicButton2" class="button" type="button">♫ ESCUCHAR CORALINE — MÅNESKIN</button>
+        <p class="tiny-note">Se abrirá en una plataforma de música para que puedas reproducirla.</p>
+      </div>
+    </section>
+
+    <section id="carta" class="section letter-section">
+      <div class="letter-frame">
+        <p class="eyebrow">CAPÍTULO IV · PARA LEER DESPACITO</p>
+        <div class="letter-icon">✉</div>
+        <h2>Una carta para<br><span>mi Puchupuchu.</span></h2>
+        <p class="letter-intro">De tu Pastelito, con todo el amor que me cabe en el pecho.</p>
+        <div class="letter-body">
+          <p>Mi Puchupuchu precioso:</p>
+          <p>Feliz Día de los Hot Wheels, mi niño lindo. 🖤 Quería regalarte algo que no se quedara solamente en un objeto, algo que pudieras abrir y recorrer, y que en cada rincón te recordara cuánto te amo. Porque tú mereces detalles que te hagan sonreír, incluso cuando yo no esté cerquita para llenarte la carita de besitos.</p>
+          <p>A veces pienso en todos esos momentos nuestros que guardo como tesoritos. La primera vez que nos vimos, cuando el corazón seguramente quería decir mil cosas a la vez. El día en que te di tus Hot Wheels y lo feliz que me hace poder regalarte algo relacionado con eso que tanto te gusta. Nuestra primera ida al cine, cuando la película era parte del plan, pero estar contigo era mi parte favorita.</p>
+          <p>También guardo con muchísimo cariño aquel rato en el carro, manejando y cantando juntos. Ojalá pudieras ver lo bonito que se ve el mundo desde mis recuerdos contigo: las canciones, las risas, el camino pasando por la ventana y esa sensación de que, por un ratito, no necesitábamos nada más. Y cómo olvidar caminar agarraditos de la mano… Puede parecer algo pequeñito, mi amor, pero para mí esas son las cosas que hacen que la vida se sienta inmensa.</p>
+          <p>Me encanta tenerte en mi vida. Me encanta que seas mi Puchupuchu, mi niño hermoso, mi compañero de aventuras y el dueño de tantos pensamientos bonitos que me visitan durante el día. Quiero seguir coleccionando momentos contigo, como quien encuentra un carrito especial y sabe que no quiere perderlo nunca. Quiero más paseos, más canciones cantadas sin importar si nos sabemos la letra, más películas, más caminatas de la mano y más días en los que pueda mirarte y pensar: “qué suerte la mía de coincidir contigo”.</p>
+          <p>Si pudiera, pondría nuestro amor en una cajita metálica, negra y morada, con estrellitas, cadenas y un corazón brillante; una cajita que dijera “frágil: contiene todo lo que más amo”. Aunque, siendo sincera, ni la caja más bonita del mundo podría guardar todo lo que siento por ti. Mi amor por ti es demasiado grande, demasiado cursi y demasiado nuestro.</p>
+          <p>Y si la vida fuera una carretera larguísima, yo no te prometería que nunca habría curvas, lluvia o caminos difíciles. Te prometería algo más real: que quiero seguir encontrando contigo la manera de avanzar, celebrar las rectas bonitas, aprender de los desvíos y detenernos cuando necesitemos respirar. Que quiero escucharte, cuidarte, reír contigo y recordarte lo valioso que eres para mí.</p>
+          <p>Gracias por cada recuerdo, por cada abrazo, por cada beso, por cada instante en el que me haces sentir cerquita de ti. Gracias por ser mi persona favorita para convertir un momento normal en uno que después quiero recordar una y otra vez.</p>
+          <p>Feliz día, mi amorcito. Ojalá este regalito te saque una sonrisa enorme y te haga sentir, aunque sea un poquito, todo el amor que puse en cada detalle. Te elegiría para compartir otra película, otra canción, otra carretera y otra caminata. Te elegiría para seguir llenando nuestra colección de recuerdos.</p>
+          <p class="letter-final">Te amo más de lo que cabría en todos los Hot Wheels del mundo, más de lo que alcanzan las carreteras y más de lo que me salen las palabras cuando te tengo enfrente. 🖤💜</p>
+          <p class="signature">Con todo mi amor, hoy y en cada vuelta de la vida,<br><strong>Tu Pastelito ♡</strong></p>
+        </div>
+        <button id="surpriseButton" class="button surprise-button" type="button">ABRIR MI ÚLTIMO REGALO <span>♡</span></button>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-skull">☠</div>
+      <p>HECHO A MANO, CON EL CORAZÓN.</p>
+      <span>Tu Pastelito <b>♥</b> Mi Puchupuchu</span>
+    </footer>
+  </main>
+
+  <div id="surpriseModal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="surpriseTitle">
+    <div class="modal-card">
+      <button id="closeModal" class="close-modal" aria-label="Cerrar" type="button">×</button>
+      <div class="modal-car">🏎️</div>
+      <p class="eyebrow">MISIÓN COMPLETADA · AMOR DESBLOQUEADO</p>
+      <h2 id="surpriseTitle">Mi destino favorito<br><span>siempre serás tú.</span></h2>
+      <p>Que nos queden muchísimas carreteras, canciones, besos y recuerdos por coleccionar. Si estás tú, yo llevo el corazón lleno y el tanque listo. 💜</p>
+      <div class="final-sign">TE AMO, MI PUCHUPUCHU<br><span>— TU PASTELITO ♡</span></div>
+      <div class="heart-rain" aria-hidden="true">♥　♡　♥　♡　♥</div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
